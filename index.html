@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ★差替え：title -->
+  <title>まなび学習塾｜一人ひとりの「わかった！」を大切に。</title>
+  <!-- ★差替え：meta description -->
+  <meta name="description" content="大阪市中央区本町の個別指導塾「まなび学習塾」。一人ひとりに合った学び方で、わかる喜びを。無料体験授業受付中。">
+  <!-- OGP -->
+  <meta property="og:title" content="まなび学習塾｜一人ひとりの「わかった！」を大切に。">
+  <meta property="og:description" content="大阪市中央区本町の個別指導塾。一人ひとりに合った学び方で、わかる喜びを。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/">
+  <meta property="og:image" content="https://example.com/images/og-image.jpg">
+  <!-- Google Fonts -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/cta-bar.css">
+  <link rel="stylesheet" href="css/pages/home.css">
+  <!-- 構造化データ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "まなび学習塾",
+    "description": "一人ひとりの「わかった！」を大切にする学習塾",
+    "url": "https://example.com",
+    "telephone": "06-1234-5678",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "本町3-1-2 本町ビル2F",
+      "addressLocality": "大阪市中央区",
+      "addressRegion": "大阪府",
+      "postalCode": "541-0053",
+      "addressCountry": "JP"
+    },
+    "openingHours": ["Mo-Fr 14:00-22:00", "Sa 10:00-18:00"]
+  }
+  </script>
+</head>
+<body class="has-header has-cta-bar">
+
+  <!-- ========== ヘッダー ========== -->
+  <header class="header">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="/">
+          <img src="images/logo.svg" alt="まなび学習塾" width="200" height="50">
+        </a>
+      </div>
+      <nav class="header__nav" aria-label="メインナビゲーション">
+        <a href="#news" class="header__nav-link">お知らせ</a>
+        <a href="#about" class="header__nav-link">当塾について</a>
+        <a href="#menu" class="header__nav-link">コース・料金</a>
+        <a href="#achievement" class="header__nav-link">合格実績</a>
+        <a href="#access" class="header__nav-link">アクセス</a>
+        <a href="#blog" class="header__nav-link">ブログ</a>
+      </nav>
+      <div class="header__actions">
+        <a href="tel:06-1234-5678" class="header__phone">
+          <span class="header__phone-icon">&#9742;</span>
+          06-1234-5678
+        </a>
+        <a href="#contact-cta" class="btn btn--primary header__cta">体験授業はこちら</a>
+      </div>
+      <button class="hamburger" aria-label="メニューを開く" aria-expanded="false">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- モバイルメニュー -->
+  <nav class="mobile-menu" aria-label="モバイルナビゲーション">
+    <a href="#news" class="mobile-menu__link">お知らせ</a>
+    <a href="#about" class="mobile-menu__link">当塾について</a>
+    <a href="#menu" class="mobile-menu__link">コース・料金</a>
+    <a href="#achievement" class="mobile-menu__link">合格実績</a>
+    <a href="#access" class="mobile-menu__link">アクセス</a>
+    <a href="#blog" class="mobile-menu__link">ブログ</a>
+    <a href="tel:06-1234-5678" class="mobile-menu__phone">
+      <span>&#9742;</span> 06-1234-5678
+    </a>
+    <a href="#contact-cta" class="btn btn--primary btn--block mobile-menu__cta">体験授業を申し込む</a>
+  </nav>
+
+  <!-- ========== メインコンテンツ ========== -->
+  <main>
+
+    <!-- ===== 1. ヒーロー（全幅画像背景＋料金バッジ） ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <!-- ★差替え：メイン画像 -->
+        <img src="images/hero-main.jpg" alt="教室の様子" width="1920" height="900">
+      </div>
+      <div class="hero__overlay">
+        <div class="container">
+          <div class="hero__content">
+            <!-- ★差替え：キャッチコピー -->
+            <h1 class="hero__catchcopy">がんばり方がわかる！<br>わかるから、できる！<br>できるから、楽しい！</h1>
+          </div>
+          <!-- ★差替え：料金ハイライト -->
+          <div class="hero__price-badge">
+            <p class="hero__price-badge-label">低価格で高品質</p>
+            <p class="hero__price-badge-target">中1・中2生</p>
+            <p class="hero__price-badge-detail">週2回〈100分〉</p>
+            <p class="hero__price-badge-price"><strong>19,000</strong>円</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 2. お知らせ（News） ===== -->
+    <section class="section" id="news">
+      <div class="container">
+        <div class="news-header">
+          <span class="news-header__label">News</span>
+        </div>
+        <div class="news-list">
+          <div class="news-list__item">
+            <span class="news-list__date">2026.03.10</span>
+            <p class="news-list__title"><a href="#">中間テスト対策講座のお知らせ</a></p>
+          </div>
+          <div class="news-list__item">
+            <span class="news-list__date">2026.03.01</span>
+            <p class="news-list__title"><a href="#">春期講習の受付を開始しました</a></p>
+          </div>
+          <div class="news-list__item">
+            <span class="news-list__date">2026.02.15</span>
+            <p class="news-list__title"><a href="#">2026年度 高校入試 合格速報</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 3. 動画セクション（赤背景） ===== -->
+    <section class="section section--primary" id="video">
+      <div class="container">
+        <div class="video-section">
+          <!-- ★差替え：YouTube動画URL -->
+          <div class="video-section__embed">
+            <div class="video-section__placeholder">
+              <img src="images/classroom-01.jpg" alt="教室紹介動画" width="960" height="540">
+              <div class="video-section__play-btn">&#9654;</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 4. 合格実績（赤背景） ===== -->
+    <section class="section section--primary" id="achievement">
+      <div class="container">
+        <div class="section-title section-title--white">
+          <span class="section-title__label">Achievement</span>
+          <h2 class="section-title__heading">合格実績</h2>
+        </div>
+        <p class="achievement__lead">指導歴15年のプロ講師が直接指導。毎年多くの生徒が志望校に合格しています。</p>
+        <div class="achievement__schools">
+          <p class="achievement__school-category">【国公立】</p>
+          <p class="achievement__school-list">春日丘高校・豊中高校・箕面高校・千里高校・池田高校 他</p>
+          <p class="achievement__school-category" style="margin-top: 12px;">【私立】</p>
+          <p class="achievement__school-list">関西大学第一高校・大阪桐蔭高校・近畿大学附属高校・常翔学園高校 他</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 5. 成績アップ速報 ===== -->
+    <section class="section section--bg" id="score-up">
+      <div class="container">
+        <div class="section-title">
+          <span class="section-title__label">Score Up</span>
+          <h2 class="section-title__heading">成績アップ速報</h2>
+        </div>
+        <p class="achievement__lead" style="color: var(--color-text-light);">生徒さんのがんばりを一部ご紹介します。みんなよく頑張りました。成績アップおめでとう！</p>
+        <div class="score-cards">
+          <div class="score-card badge">
+            <span>A中2年 5教科</span>
+            <span class="badge__score">62点UP!</span>
+          </div>
+          <div class="score-card badge">
+            <span>B中3年 英語</span>
+            <span class="badge__score">35点UP!</span>
+          </div>
+          <div class="score-card badge">
+            <span>C中1年 数学</span>
+            <span class="badge__score">28点UP!</span>
+          </div>
+          <div class="score-card badge">
+            <span>A中2年 国語</span>
+            <span class="badge__score">22点UP!</span>
+          </div>
+          <div class="score-card badge">
+            <span>B中3年 理科</span>
+            <span class="badge__score">31点UP!</span>
+          </div>
+          <div class="score-card badge">
+            <span>C中2年 社会</span>
+            <span class="badge__score">19点UP!</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 6. 生徒の声（Voice） ===== -->
+    <section class="section" id="voice">
+      <div class="container">
+        <div class="section-title section-title--left">
+          <span class="section-title__label">Voice</span>
+          <h2 class="section-title__heading">生徒さんからいただいた声</h2>
+        </div>
+        <p class="section-lead">これまでに一緒に勉強をした、たくさんの生徒さんにいただいた声を一部ご紹介します。教室の雰囲気を感じ取っていただけると嬉しいです。</p>
+        <div class="grid grid--3">
+          <div class="testimonial">
+            <p class="testimonial__text">勉強の仕方がわからなかった私に、先生が一から教えてくれました。テストの点数が上がったときは本当に嬉しかったです。</p>
+            <p class="testimonial__author">中2 Aさん</p>
+          </div>
+          <div class="testimonial">
+            <p class="testimonial__text">塾に来るのが楽しみになりました。先生がいつも明るくて、質問もしやすい雰囲気です。</p>
+            <p class="testimonial__author">中1 Bくん</p>
+          </div>
+          <div class="testimonial">
+            <p class="testimonial__text">計画を一緒に立ててくれるので、自分から勉強するようになりました。志望校にも合格できました！</p>
+            <p class="testimonial__author">中3 Cさん</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 7. 当塾について（About） ===== -->
+    <section class="section section--bg" id="about">
+      <div class="container">
+        <div class="section-title section-title--left">
+          <span class="section-title__label">About</span>
+          <h2 class="section-title__heading">子どもをひとりにしない場所</h2>
+        </div>
+        <div class="about__inner">
+          <div class="about__photo">
+            <img src="images/teacher-01.jpg" alt="塾長 山田太郎" width="400" height="533">
+          </div>
+          <div class="about__body">
+            <p class="about__message">勉強のやり方がわからない子に、その子に合った学び方を見つけてあげたい。そして「できた！」という笑顔を一緒に喜びたい。それが私の原動力です。</p>
+            <p class="about__message">大手学習塾で15年間、300名以上の生徒を指導してきました。「もっと一人ひとりに寄り添いたい」という想いから独立し、まなび学習塾を開校しました。</p>
+            <p class="about__name">塾長 山田 太郎</p>
+            <p class="about__role">まなび学習塾 代表</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 8. 教室の様子（Gallery） ===== -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-title section-title--left">
+          <span class="section-title__label">Gallery</span>
+          <h2 class="section-title__heading">通うのが楽しみになる空間</h2>
+        </div>
+        <div class="slider">
+          <div class="slider__track">
+            <div class="slider__slide">
+              <img src="images/classroom-01.jpg" alt="教室写真1 — 明るい学習スペース" width="800" height="450">
+            </div>
+            <div class="slider__slide">
+              <img src="images/classroom-02.jpg" alt="教室写真2 — 自習スペース" width="800" height="450">
+            </div>
+            <div class="slider__slide">
+              <img src="images/classroom-03.jpg" alt="教室写真3 — 個別指導ブース" width="800" height="450">
+            </div>
+            <div class="slider__slide">
+              <img src="images/classroom-04.jpg" alt="教室写真4 — エントランス" width="800" height="450">
+            </div>
+          </div>
+          <button class="slider__prev" aria-label="前の写真">&#10094;</button>
+          <button class="slider__next" aria-label="次の写真">&#10095;</button>
+          <div class="slider__dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 9. 7つのやくそく（Promise） ===== -->
+    <section class="section section--bg" id="promise">
+      <div class="container">
+        <div class="section-title">
+          <span class="section-title__label">Promise</span>
+          <h2 class="section-title__heading">7つのやくそく</h2>
+        </div>
+        <div class="promise-list">
+          <div class="promise-item">
+            <span class="promise-item__number">1</span>
+            <div class="promise-item__content">
+              <p class="promise-item__title">勉強のしかたを教えます</p>
+              <p class="promise-item__text">何を・いつ・どうやって勉強するか。お子さまに合った勉強法を一緒に見つけます。</p>
+            </div>
+          </div>
+          <div class="promise-item">
+            <span class="promise-item__number">2</span>
+            <div class="promise-item__content">
+              <p class="promise-item__title">ご家族と一緒にお子様を見守ります</p>
+              <p class="promise-item__text">定期的な面談で学習状況を共有し、ご家庭と連携してお子さまの成長をサポートします。</p>
+            </div>
+          </div>
+          <div class="promise-item">
+            <span class="promise-item__number">3</span>
+            <div class="promise-item__content">
+              <p class="promise-item__title">「教える」ではなく「一緒に考える」</p>
+              <p class="promise-item__text">答えをすぐに教えるのではなく、考えるプロセスを大切にする指導を行います。</p>
+            </div>
+          </div>
+          <div class="promise-item">
+            <span class="promise-item__number">4</span>
+            <div class="promise-item__content">
+              <p class="promise-item__title">学習量から良い学習の質を生み出します</p>
+              <p class="promise-item__text">まずはしっかり量をこなすこと。その中から効率の良い学習法が身についていきます。</p>
+            </div>
+          </div>
+          <div class="promise-item">
+            <span class="promise-item__number">5</span>
+            <div class="promise-item__content">
+              <p class="promise-item__title">勉強は楽しく</p>
+              <p class="promise-item__text">「わかった！」「できた！」の体験を積み重ね、勉強の楽しさを実感できる環境を作ります。</p>
+            </div>
+          </div>
+          <div class="promise-item">
+            <span class="promise-item__number">6</span>
+            <div class="promise-item__content">
+              <p class="promise-item__title">低価格で高品質</p>
+              <p class="promise-item__text">質の高い指導を、ご家庭に負担の少ない価格で提供します。</p>
+            </div>
+          </div>
+          <div class="promise-item">
+            <span class="promise-item__number">7</span>
+            <div class="promise-item__content">
+              <p class="promise-item__title">ひとりひとりの笑顔のために</p>
+              <p class="promise-item__text">すべての生徒が自信を持って笑顔になれるよう、全力でサポートします。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 10. コース・料金（Menu） ===== -->
+    <section class="section" id="menu">
+      <div class="container">
+        <div class="section-title">
+          <span class="section-title__label">Menu</span>
+          <h2 class="section-title__heading">コース・料金</h2>
+        </div>
+        <div class="table-wrapper">
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>学年</th>
+                <th>週1回（月4回）</th>
+                <th>週2回（月8回）</th>
+                <th>週3回（月12回）</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>小学4〜6年</th>
+                <td>5,500円</td>
+                <td>9,000円</td>
+                <td>12,000円</td>
+              </tr>
+              <tr>
+                <th>中学1年</th>
+                <td>—</td>
+                <td>19,000円</td>
+                <td>26,000円</td>
+              </tr>
+              <tr>
+                <th>中学2年</th>
+                <td>—</td>
+                <td>19,000円</td>
+                <td>26,000円</td>
+              </tr>
+              <tr>
+                <th>中学3年</th>
+                <td>—</td>
+                <td>22,000円</td>
+                <td>28,000円</td>
+              </tr>
+              <tr>
+                <th>高校生</th>
+                <td>—</td>
+                <td>25,000円</td>
+                <td>30,000円</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="menu__notes">
+          <p>※1コマ：100分（小学生は50分）</p>
+          <p>※入会金：22,000円（税込）</p>
+          <p>※システム管理費：2,970円/月</p>
+          <p>※教材費は別途</p>
+          <p>※金額はすべて税込です</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 11. 中間CTA（赤背景帯） ===== -->
+    <section class="contact-cta" id="mid-cta">
+      <div class="container">
+        <h2 class="contact-cta__heading">がんばり方がわかる、まなび学習塾はそんな学習塾です。</h2>
+        <div class="contact-cta__columns">
+          <div class="contact-cta__column">
+            <a href="#contact-cta" class="btn btn--white btn--lg btn--block">無料体験授業受付中！<br>お申し込みはこちら</a>
+          </div>
+          <div class="contact-cta__column">
+            <a href="tel:06-1234-5678" class="contact-cta__phone-number">&#9742; 06-1234-5678</a>
+            <p class="contact-cta__phone-time">受付時間：平日 14:00〜22:00 / 土曜 10:00〜18:00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 12. 塾長ブログ（Blog） ===== -->
+    <section class="section" id="blog">
+      <div class="container">
+        <div class="section-title section-title--left">
+          <span class="section-title__label">Blog</span>
+          <h2 class="section-title__heading">塾長ブログ</h2>
+        </div>
+        <div class="grid grid--3">
+          <a href="#" class="card">
+            <img src="images/blog-thumb-01.svg" alt="中間テスト対策" class="card__image" width="600" height="338">
+            <div class="card__body">
+              <span class="card__tag">学習法</span>
+              <h3 class="card__title">中間テスト対策！効率的な勉強法5選</h3>
+              <p class="card__date">2026.03.10</p>
+            </div>
+          </a>
+          <a href="#" class="card">
+            <img src="images/blog-thumb-02.svg" alt="春期講習のお知らせ" class="card__image" width="600" height="338">
+            <div class="card__body">
+              <span class="card__tag">教室ニュース</span>
+              <h3 class="card__title">春期講習のお知らせ</h3>
+              <p class="card__date">2026.03.01</p>
+            </div>
+          </a>
+          <a href="#" class="card">
+            <img src="images/blog-thumb-03.svg" alt="高校入試の傾向と対策" class="card__image" width="600" height="338">
+            <div class="card__body">
+              <span class="card__tag">受験情報</span>
+              <h3 class="card__title">2026年度 高校入試の傾向と対策</h3>
+              <p class="card__date">2026.02.15</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 13. 口コミ（Reviews） ===== -->
+    <section class="section section--bg" id="reviews">
+      <div class="container">
+        <div class="section-title section-title--left">
+          <span class="section-title__label">Reviews</span>
+          <h2 class="section-title__heading">口コミ</h2>
+        </div>
+        <div class="review-summary">
+          <p class="review-summary__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+          <p class="review-summary__rating">4.8</p>
+          <p class="review-summary__count">Google口コミ 24件</p>
+        </div>
+        <div class="grid grid--3">
+          <div class="review-card">
+            <div class="review-card__header">
+              <div class="review-card__avatar">&#128100;</div>
+              <div>
+                <p class="review-card__name">T.S さん</p>
+                <p class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              </div>
+            </div>
+            <p class="review-card__text">子どもが楽しく通っています。先生の教え方がとても丁寧で、成績も上がりました。</p>
+          </div>
+          <div class="review-card">
+            <div class="review-card__header">
+              <div class="review-card__avatar">&#128100;</div>
+              <div>
+                <p class="review-card__name">M.K さん</p>
+                <p class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              </div>
+            </div>
+            <p class="review-card__text">自習室がいつでも使えるのがありがたいです。テスト前は毎日お世話になっています。</p>
+          </div>
+          <div class="review-card">
+            <div class="review-card__header">
+              <div class="review-card__avatar">&#128100;</div>
+              <div>
+                <p class="review-card__name">Y.N さん</p>
+                <p class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+              </div>
+            </div>
+            <p class="review-card__text">面談で学習状況を細かく教えてくれるので安心です。料金も良心的だと思います。</p>
+          </div>
+        </div>
+        <div class="review-buttons">
+          <a href="#" class="btn btn--primary btn--sm" target="_blank" rel="noopener">クチコミを書く</a>
+          <a href="#" class="btn btn--outline btn--sm" target="_blank" rel="noopener">詳細を見る</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 14. アクセス（Access） ===== -->
+    <section class="section" id="access">
+      <div class="container">
+        <div class="section-title section-title--left">
+          <span class="section-title__label">Access</span>
+          <h2 class="section-title__heading">アクセス</h2>
+        </div>
+        <div class="access__inner">
+          <div class="access__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.2!2d135.5!3d34.68!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDQwJzQ4LjAiTiAxMzXCsDMwJzAwLjAiRQ!5e0!3m2!1sja!2sjp!4v1"
+              width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" title="まなび学習塾 地図">
+            </iframe>
+          </div>
+          <div class="access__info">
+            <div class="access__info-item">
+              <span class="access__info-label">塾名</span>
+              <span class="access__info-value">まなび学習塾</span>
+            </div>
+            <div class="access__info-item">
+              <span class="access__info-label">住所</span>
+              <span class="access__info-value">〒541-0053 大阪府大阪市中央区本町3-1-2 本町ビル2F</span>
+            </div>
+            <div class="access__info-item">
+              <span class="access__info-label">電話番号</span>
+              <span class="access__info-value"><a href="tel:06-1234-5678">06-1234-5678</a></span>
+            </div>
+            <div class="access__info-item">
+              <span class="access__info-label">営業時間</span>
+              <span class="access__info-value">平日 14:00〜22:00 / 土曜 10:00〜18:00</span>
+            </div>
+            <div class="access__info-item">
+              <span class="access__info-label">定休日</span>
+              <span class="access__info-value">日曜・祝日</span>
+            </div>
+            <div class="access__info-item">
+              <span class="access__info-label">最寄り駅</span>
+              <span class="access__info-value">大阪メトロ御堂筋線「本町」駅 徒歩3分</span>
+            </div>
+            <div class="access__info-item">
+              <span class="access__info-label">駐輪場</span>
+              <span class="access__info-value">ビル前に無料駐輪スペースあり</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 15. 最終CTA ===== -->
+    <section class="contact-cta" id="contact-cta">
+      <div class="container">
+        <p class="contact-cta__lead">入会に関するお問合せ・体験授業ご希望の方はお気軽にどうぞ</p>
+        <div class="contact-cta__columns">
+          <div class="contact-cta__column">
+            <a href="#" class="btn btn--white btn--lg btn--block">無料体験授業受付中！<br>お申し込みはこちら</a>
+          </div>
+          <div class="contact-cta__column">
+            <a href="tel:06-1234-5678" class="contact-cta__phone-number">&#9742; 06-1234-5678</a>
+            <p class="contact-cta__phone-time">受付時間：平日 14:00〜22:00 / 土曜 10:00〜18:00</p>
+          </div>
+        </div>
+        <p class="contact-cta__catchcopy">一人ひとりの「わかった！」を大切に。</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== フッター ========== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <img src="images/logo.svg" alt="まなび学習塾" width="200" height="50">
+        </div>
+        <p class="footer__catchcopy">一人ひとりの「わかった！」を大切に。</p>
+        <dl class="footer__info">
+          <dt>住所</dt>
+          <dd>〒541-0053 大阪府大阪市中央区本町3-1-2 本町ビル2F</dd>
+          <dt>電話番号</dt>
+          <dd>TEL: 06-1234-5678</dd>
+          <dt>営業時間</dt>
+          <dd>平日 14:00〜22:00 / 土曜 10:00〜18:00</dd>
+        </dl>
+        <div class="footer__sns">
+          <a href="#" aria-label="Instagram">&#9679;</a>
+          <a href="#" aria-label="LINE">&#9679;</a>
+        </div>
+      </div>
+      <div>
+        <p class="footer__nav-title">ページ</p>
+        <ul class="footer__nav-list">
+          <li><a href="#hero">ホーム</a></li>
+          <li><a href="#about">当塾について</a></li>
+          <li><a href="#menu">コース・料金</a></li>
+          <li><a href="#access">アクセス</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__nav-title">情報</p>
+        <ul class="footer__nav-list">
+          <li><a href="#blog">塾長ブログ</a></li>
+          <li><a href="#contact-cta">お問い合わせ</a></li>
+          <li><a href="#">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__nav-title">お問い合わせ</p>
+        <ul class="footer__nav-list">
+          <li><a href="tel:06-1234-5678">06-1234-5678</a></li>
+          <li><a href="#contact-cta">体験授業のお申し込み</a></li>
+          <li><a href="#contact-cta">資料請求</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copyright">&copy; 2026 まなび学習塾 All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ========== 固定CTAバー ========== -->
+  <div class="cta-bar">
+    <div class="cta-bar__inner">
+      <a href="tel:06-1234-5678" class="cta-bar__phone">
+        <span class="cta-bar__phone-icon">&#9742;</span>
+        <span class="cta-bar__phone-number">06-1234-5678</span>
+        <span class="cta-bar__phone-time">平日14:00〜22:00</span>
+      </a>
+      <a href="#contact-cta" class="cta-bar__button">
+        &#9998; 体験授業・資料請求
+      </a>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
